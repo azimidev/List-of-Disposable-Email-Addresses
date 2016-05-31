@@ -8,7 +8,7 @@ This is the link of the gist if you want to link to it and use it
 
 ### Example fo PHP usage:
 
-```
+```php
 function is_temp_mail($mail)
 {
     $mail_domains_ko = file('https://gist.githubusercontent.com/hassanazimi/d6e49469258d7d06f9f4/raw/disposable_email_addresses');
