@@ -6,7 +6,9 @@ Please notify me of any updates or fork and request a pull request if there is a
 This is the link of the gist if you want to link to it and use it
 [Disposable Email Addresses](https://gist.github.com/hassanazimi/d6e49469258d7d06f9f4 "Disposable Email Addresses")
 
-### Example fo PHP usage:
+### Example of PHP usage:
+
+If you want to avois users from registering with any disposable email addresses then you can use a function similar or exactly like this in `PHP`or your preferred programming language:
 
 ```php
 function is_temp_mail($mail)
