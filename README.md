@@ -17,9 +17,9 @@ function is_temp_mail($mail)
     foreach($mail_domains_ko as $ko_mail) {
         [, $mail_domain] = explode('@', $mail);
         if(strcasecmp($mail_domain, trim($ko_mail)) == 0) {
-            return TRUE;
+            return true;
         }
     }
-    return FALSE;
+    return false;
 }
 ```
